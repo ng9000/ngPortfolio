@@ -158,6 +158,7 @@ export function Island({
        *     always stays within the range of 0 to 2 * Math.PI, which is equivalent to a full
        *     circle in radians.
        */
+
       const normalizedRotation =
         ((rotation % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
 
@@ -182,7 +183,8 @@ export function Island({
   });
 
   return (
-    // {Island 3D model from: https://sketchfab.com/3d-models/foxs-islands-163b68e09fcc47618450150be7785907}
+    // {Island 3D model from:
+    // https://sketchfab.com/3d-models/foxs-islands-163b68e09fcc47618450150be7785907}
     <a.group ref={islandRef} {...props}>
       <mesh
         geometry={nodes.polySurface944_tree_body_0.geometry}

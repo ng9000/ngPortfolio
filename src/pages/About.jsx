@@ -22,18 +22,18 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          Software Engineer based in India, specializing in building
+          applications.
         </p>
       </div>
 
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
 
-        <div className="mt-16 flex flex-wrap gap-12">
+        <div className="mt-16 flex flex-wrap gap-8 justify-center">
           {skills.map((skill) => (
             <div className="block-container w-20 h-20" key={skill.name}>
-              <div className="btn-back btn-back-orange rounded-xl" />
+              <div className="btn-back btn-back-green rounded-xl" />
               <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
                   src={skill.imageUrl}

@@ -77,7 +77,6 @@ const Home = () => {
             groundColor="#000000"
             intensity={1}
           />
-
           <Bird />
           <Sky isRotating={isRotating} />
           <Island
@@ -94,7 +93,6 @@ const Home = () => {
             isRotating={isRotating}
             rotation={[0, 20, 0]}
           />
-          {/* <Birds /> */}
         </Suspense>
       </Canvas>
       <div className="absolute bottom-2 left-2">

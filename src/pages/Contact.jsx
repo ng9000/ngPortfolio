@@ -59,6 +59,8 @@ const Contact = () => {
         });
       console.log("validation check");
     } else {
+      toast.error("Please complete the form");
+      setisLoading(false);
       console.log("invalid");
     }
   };
@@ -81,7 +83,6 @@ const Contact = () => {
               name="name"
               className="input"
               placeholder="John"
-              required
               value={form.name}
               onChange={handleChange}
               onFocus={handleFocus}
@@ -95,7 +96,6 @@ const Contact = () => {
               name="email"
               className="input"
               placeholder="John@gmail.com"
-              required
               value={form.email}
               onChange={handleChange}
               onFocus={handleFocus}

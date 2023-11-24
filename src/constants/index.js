@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, moon } from "../assets/images";
+import { moon } from "../assets/images";
 import {
     car,
     contact,
