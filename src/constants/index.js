@@ -23,10 +23,15 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: nextjs,
+        name: "Next.js",
+        type: "Frontend",
+    },
     {
         imageUrl: css,
         name: "CSS",
@@ -58,6 +63,11 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
+    },
+    {
         imageUrl: mongodb,
         name: "MongoDB",
         type: "Database",
@@ -72,11 +82,7 @@ export const skills = [
         name: "Material-UI",
         type: "Frontend",
     },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
+
     // {
     //     imageUrl: nodejs,
     //     name: "Node.js",
@@ -102,11 +108,6 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
 ];
 
 export const experiences = [
@@ -124,17 +125,17 @@ export const experiences = [
         ],
     },
     // {
-    //     title: "React Native Developer",
-    //     company_name: "Tesla",
-    //     icon: tesla,
-    //     iconBg: "#fbc3bc",
-    //     date: "Jan 2021 - Feb 2022",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
+    //   title: "React Native Developer",
+    //   company_name: "Tesla",
+    //   icon: tesla,
+    //   iconBg: "#fbc3bc",
+    //   date: "Jan 2021 - Feb 2022",
+    //   points: [
+    //       "Developing and maintaining web applications using React.js and other related technologies.",
+    //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //       "Implementing responsive design and ensuring cross-browser compatibility.",
+    //       "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
     // },
     // {
     //     title: "Web Developer",
@@ -166,20 +167,20 @@ export const experiences = [
 
 export const socialLinks = [
     {
-        name: 'Contact',
+        name: "Contact",
         iconUrl: contact,
-        link: '/contact',
+        link: "/contact",
     },
     {
-        name: 'GitHub',
+        name: "GitHub",
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: "https://github.com/YourGitHubUsername",
     },
     {
-        name: 'LinkedIn',
+        name: "LinkedIn",
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
-    }
+        link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    },
 ];
 
 export const projects = [
@@ -192,10 +193,11 @@ export const projects = [
     // },
     {
         iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        theme: "btn-back-green",
+        name: "Full Stack Threads Clone",
+        description:
+            'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        link: "https://threads-clone-sand-zeta.vercel.app/",
     },
     // {
     //     iconUrl: car,
@@ -206,10 +208,11 @@ export const projects = [
     // },
     {
         iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        theme: "btn-back-pink",
+        name: "Full Stack Instagram Clone",
+        description:
+            "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
+        link: "https://github.com/ng9000/connectopia",
     },
     // {
     //     iconUrl: estate,
